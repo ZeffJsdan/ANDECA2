@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:id="@+id/itemSpinner"
+                android:id="@+id/itemspinner"
                 android:entries="@array/items"
                 android:background="@color/white">
 
@@ -77,15 +77,20 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/save"
-                android:text="Save"
-                android:textAllCaps="false"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:layout_margin="2dp"/>
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Save"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
             </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
