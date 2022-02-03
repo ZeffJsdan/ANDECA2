@@ -9,7 +9,7 @@
     android:paddingRight="16dp"
     android:gravity="center"
     tools:context=".LoginActivity"
-    android:background="#490093">
+    android:background="#26004C">
 
     <ImageView
         android:id="@+id/imageView2"
