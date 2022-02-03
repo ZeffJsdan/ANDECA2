@@ -5,9 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
     android:gravity="center"
-    android:layout_margin="20dp"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="#490093">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="174dp"
+        android:layout_height="176dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
 
 
     <EditText
@@ -15,11 +30,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Email"
-        android:textColor="#000"
+        android:textColor="#FFFFFF"
         android:inputType="textEmailAddress"
         android:textSize="20sp"
         android:layout_margin="5dp"
-        android:textColorHint="#000"/>
+        android:textColorHint="#FFFFFF"/>
 
     <EditText
         android:id="@+id/password"
@@ -27,14 +42,15 @@
         android:layout_height="wrap_content"
         android:hint="Enter Password"
         android:inputType="textPassword"
-        android:textColor="#000"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:layout_margin="5dp"
-        android:textColorHint="#000"/>
+        android:textColorHint="#FFFFFF"/>
     <Button
         android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
         android:layout_margin="5dp"
         android:text="Login"
         android:onClick="onClickLogin"
@@ -43,6 +59,7 @@
         android:id="@+id/loginQn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
         android:text="Don't have an account? Signup!"
         android:gravity="center"
         android:onClick="onClick"/>
