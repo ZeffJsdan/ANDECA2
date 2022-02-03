@@ -12,7 +12,7 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string-array name="items">
-        <item>SelectItem</item>
+        <item>Select item</item>
         <item>Transport</item>
         <item>Food</item>
         <item>House</item>
