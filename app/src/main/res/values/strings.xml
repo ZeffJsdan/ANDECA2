@@ -11,4 +11,18 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string-array name="items">
+        <item>SelectItem</item>
+        <item>Transport</item>
+        <item>Food</item>
+        <item>House</item>
+        <item>Entertainment</item>
+        <item>Education</item>
+        <item>Clothes</item>
+        <item>Personal</item>
+        <item>Health</item>
+        <item>Other</item>
+
+
+    </string-array>
 </resources>
