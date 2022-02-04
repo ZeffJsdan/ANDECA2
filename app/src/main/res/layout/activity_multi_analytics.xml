@@ -29,6 +29,7 @@
         android:layout_marginBottom="15dp"
         app:cardElevation="8dp"
         android:background="@color/white"
+        android:onClick="onClickTodayCardView"
         >
 
         <LinearLayout
@@ -64,6 +65,8 @@
         android:layout_marginBottom="15dp"
         app:cardElevation="8dp"
         android:background="@color/white"
+        android:onClick="onClickWeeklyCardView"
+
         >
 
         <LinearLayout
@@ -100,6 +103,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginBottom="15dp"
         android:background="@color/white"
+        android:onClick="onClickMonthlyCardView"
+
         >
 
         <LinearLayout
