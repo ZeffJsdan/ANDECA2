@@ -171,9 +171,11 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="onClickMonthly">
 
                     <ImageView
+                        android:id="@+id/monthBtnImageView"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:src="@drawable/splash" />
@@ -189,7 +191,6 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/statisticCardView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_row="2"
@@ -205,12 +206,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="onClickAnalytic"
+                    >
 
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/splash" />
+                        android:src="@drawable/splash"
+                        android:id="@+id/statisticCardView"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
