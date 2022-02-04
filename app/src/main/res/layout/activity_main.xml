@@ -80,7 +80,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/todayCardView"
+                android:id="@+id/dailyCardView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_row="0"
@@ -89,7 +89,8 @@
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 android:layout_margin="8dp"
-                android:background="#000">
+                android:background="#000"
+                android:onClick="onClickDaily">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -106,7 +107,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Spending"
+                        android:text="Daily"
                         android:textAlignment="center"
                         android:textColor="#000"
                         android:textStyle="bold" />

@@ -2,17 +2,17 @@ package com.example.andeca1;
 
 public class Data {
     String item,date,id,description;
-    int amounnt,month;
+    int amount,month;
     public Data(){
 
     }
 
-    public Data(String item, String date, String id, String description, int amounnt, int month) {
+    public Data(String item, String date, String id, String description, int amount, int month) {
         this.item = item;
         this.date = date;
         this.id = id;
         this.description = description;
-        this.amounnt = amounnt;
+        this.amount = amount;
         this.month = month;
     }
 
@@ -48,12 +48,12 @@ public class Data {
         this.description = description;
     }
 
-    public int getAmounnt() {
-        return amounnt;
+    public int getAmount() {
+        return amount;
     }
 
     public void setAmounnt(int amounnt) {
-        this.amounnt = amounnt;
+        this.amount = amounnt;
     }
 
     public int getMonth() {
