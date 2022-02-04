@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
         <activity
+            android:name=".WeeklyActivity"
+            android:exported="false" />
+        <activity
             android:name=".DailySpendingActivity"
             android:exported="false" />
         <activity
@@ -21,7 +24,8 @@
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
-        <activity android:name=".SplashScreen"
+        <activity
+            android:name=".SplashScreen"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
