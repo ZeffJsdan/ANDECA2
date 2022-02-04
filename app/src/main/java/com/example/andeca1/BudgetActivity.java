@@ -3,6 +3,7 @@ package com.example.andeca1;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -36,6 +37,7 @@ import com.google.firebase.database.ValueEventListener;
 import org.joda.time.DateTime;
 import org.joda.time.Months;
 import org.joda.time.MutableDateTime;
+import org.joda.time.Weeks;
 import org.w3c.dom.Text;
 
 import java.text.DateFormat;
@@ -46,6 +48,7 @@ public class BudgetActivity extends AppCompatActivity {
 
     private TextView totalAmountTextView;
     private RecyclerView recyclerView;
+    private Toolbar toolbar;
 
     private FloatingActionButton fabBudgetAdd;
 
@@ -67,7 +70,9 @@ public class BudgetActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         budgetRef = FirebaseDatabase.getInstance().getReference().child("budget").child(mAuth.getCurrentUser().getUid());
         loader = new ProgressDialog(this);
-
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Budgeting");
         totalAmountTextView = findViewById(R.id.totalAmountTextView);
         recyclerView = findViewById(R.id.recyclerView);
 
@@ -137,9 +142,10 @@ public class BudgetActivity extends AppCompatActivity {
                 MutableDateTime epoch = new MutableDateTime();
                 epoch.setDate(0);
                 DateTime now = new DateTime();
+                Weeks weeks = Weeks.weeksBetween(epoch,now);
                 Months months = Months.monthsBetween(epoch,now);
 
-                Data data = new Data(budgetItem, date, id, null, Integer.parseInt(budgetAmount), months.getMonths());
+                Data data = new Data(budgetItem, date, id, null, Integer.parseInt(budgetAmount), months.getMonths(), weeks.getWeeks());
 
                 budgetRef.child(id).setValue(data).addOnCompleteListener(task -> {
                     if (task.isSuccessful()){
@@ -280,8 +286,9 @@ public class BudgetActivity extends AppCompatActivity {
             epoch.setDate(0);
             DateTime now = new DateTime();
             Months months = Months.monthsBetween(epoch,now);
+            Weeks weeks = Weeks.weeksBetween(epoch,now);
 
-            Data data = new Data(item, date, post_key, null, amount, months.getMonths());
+            Data data = new Data(item, date, post_key, null, amount, months.getMonths(),weeks.getWeeks());
 
             budgetRef.child(post_key).setValue(data).addOnCompleteListener(task -> {
                 if (task.isSuccessful()){

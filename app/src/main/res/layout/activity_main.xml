@@ -56,6 +56,8 @@
                 android:layout_margin="8dp"
                 android:background="#621BA8"
                 android:onClick="onClickBudget">
+                >
+
 
 
                 <LinearLayout
@@ -63,12 +65,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="onClickBudget">
 
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="80dp"
                         android:src="@drawable/budget" />
+                        android:id="@+id/budgetBtnImageView"
+                        />
+
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -91,19 +97,25 @@
                 android:layout_gravity="fill"
                 android:layout_margin="8dp"
                 android:background="#000"
-                android:onClick="onClickDaily">
+                >
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="onClickDaily">
 
                     <ImageView
+
                         android:layout_width="120dp"
                         android:layout_height="80dp"
                         android:src="@drawable/day" />
+
+                        android:id="@+id/dailyBtnImageView"
+                        />
+
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -132,12 +144,18 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|center_horizontal"
                     android:gravity="center"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:onClick="onClickWeekly">
 
                     <ImageView
+
                         android:layout_width="120dp"
                         android:layout_height="80dp"
                         android:src="@drawable/week" />
+
+                        android:id="@+id/weekBtnImageView"
+                       />
+
 
                     <TextView
                         android:layout_width="wrap_content"
