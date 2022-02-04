@@ -10,7 +10,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#26004C">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,8 +40,8 @@
                 android:hint="Enter Amount..."
                 android:inputType="number"
                 android:id="@+id/amount"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black"/>
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"/>
             <EditText
                 android:visibility="gone"
                 android:layout_width="match_parent"
