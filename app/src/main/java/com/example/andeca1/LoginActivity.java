@@ -18,6 +18,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener  {
 
@@ -26,12 +27,25 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private TextView loginQn;
 
     private FirebaseAuth mAuth;
-    private ProgressBar progressBar;
+
+    private FirebaseAuth.AuthStateListener authStateListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        authStateListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser user = mAuth.getCurrentUser();
+                if (user!= null){
+                    Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
+            }
+        };
 
         email = findViewById(R.id.email);
         password = findViewById(R.id.password);
@@ -39,7 +53,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         loginQn = findViewById(R.id.loginQn);
 
         mAuth = FirebaseAuth.getInstance();
-        progressBar = new ProgressBar(this);
     }
 
     @Override
@@ -70,5 +83,17 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 }
             });
         }
+    }
+
+    @Override
+    protected void onStart(){
+        super.onStart();
+
+        mAuth.addAuthStateListener(authStateListener);
+    }
+    @Override
+    protected void onStop(){
+        super.onStop();
+        mAuth.removeAuthStateListener(authStateListener);
     }
 }
