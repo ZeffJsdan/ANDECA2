@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F8F8"
+    android:background="#26004C"
 
     tools:context=".MainActivity">
 
@@ -54,8 +54,9 @@
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 android:layout_margin="8dp"
-                android:background="#000"
+                android:background="#621BA8"
                 android:onClick="onClickBudget">
+
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -65,9 +66,9 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/splash" />
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/budget" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -100,9 +101,9 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/splash" />
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/day" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -134,9 +135,9 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/splash" />
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/week" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -168,9 +169,9 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/splash" />
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/month" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -202,9 +203,9 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/splash" />
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/stats" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -236,9 +237,9 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/splash" />
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/history" />
 
                     <TextView
                         android:layout_width="wrap_content"
