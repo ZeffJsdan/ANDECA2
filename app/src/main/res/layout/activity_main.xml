@@ -56,8 +56,6 @@
                 android:layout_margin="8dp"
                 android:background="#621BA8"
                 android:onClick="onClickBudget">
-                >
-
 
 
                 <LinearLayout
@@ -71,7 +69,7 @@
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/budget" />
+                        android:src="@drawable/budget"
                         android:id="@+id/budgetBtnImageView"
                         />
 
@@ -111,7 +109,7 @@
 
                         android:layout_width="120dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/day" />
+                        android:src="@drawable/day"
 
                         android:id="@+id/dailyBtnImageView"
                         />
@@ -151,7 +149,7 @@
 
                         android:layout_width="120dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/week" />
+                        android:src="@drawable/week"
 
                         android:id="@+id/weekBtnImageView"
                        />
