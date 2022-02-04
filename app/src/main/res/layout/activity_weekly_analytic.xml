@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#26004C"
     tools:context=".WeeklyAnalyticActivity">
 
     <LinearLayout
@@ -25,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Total Amount: $0"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"
@@ -49,7 +50,7 @@
                 android:text="Less then half"
                 android:layout_gravity="center_vertical"
                 android:textSize="12dp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/white"/>
 
             <ImageView
                 android:layout_width="0dp"
@@ -64,7 +65,7 @@
                 android:text="Half used"
                 android:layout_gravity="center_vertical"
                 android:textSize="12dp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/white"/>
 
             <ImageView
                 android:layout_width="0dp"
@@ -79,7 +80,7 @@
                 android:text="Over Budget"
                 android:layout_gravity="center_vertical"
                 android:textSize="12dp"
-                android:textColor="@color/black"/>
+                android:textColor="@color/white"/>
 
         </LinearLayout>
 
@@ -106,7 +107,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Transport"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <TextView
@@ -114,7 +115,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="0.0"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <LinearLayout
@@ -126,7 +127,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="2"
                                 android:text="Status"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:textStyle="bold"
                                 android:textSize="17dp"/>
                             <ImageView
@@ -141,7 +142,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="This Week"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="12sp"/>
 
                     </LinearLayout>
@@ -167,7 +168,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Food"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <TextView
@@ -175,7 +176,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="0.0"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <LinearLayout
@@ -187,7 +188,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="2"
                                 android:text="Status"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:textStyle="bold"
                                 android:textSize="17dp"/>
                             <ImageView
@@ -202,7 +203,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="This Week"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="12sp"/>
 
                     </LinearLayout>
@@ -228,7 +229,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="House"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <TextView
@@ -236,7 +237,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="0.0"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <LinearLayout
@@ -248,7 +249,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="2"
                                 android:text="Status"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:textStyle="bold"
                                 android:textSize="17dp"/>
                             <ImageView
@@ -263,7 +264,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="This Week"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="12sp"/>
 
                     </LinearLayout>
@@ -289,7 +290,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Entertainment"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <TextView
@@ -297,7 +298,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="0.0"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <LinearLayout
@@ -309,7 +310,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="2"
                                 android:text="Status"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:textStyle="bold"
                                 android:textSize="17dp"/>
                             <ImageView
@@ -350,7 +351,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Education"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <TextView
@@ -358,7 +359,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="0.0"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <LinearLayout
@@ -370,7 +371,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="2"
                                 android:text="Status"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:textStyle="bold"
                                 android:textSize="17dp"/>
                             <ImageView
@@ -385,7 +386,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="This Week"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="12sp"/>
 
                     </LinearLayout>
@@ -411,7 +412,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Clothes"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <TextView
@@ -419,7 +420,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="0.0"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <LinearLayout
@@ -431,7 +432,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="2"
                                 android:text="Status"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:textStyle="bold"
                                 android:textSize="17dp"/>
                             <ImageView
@@ -446,7 +447,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="This Week"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="12sp"/>
 
                     </LinearLayout>
@@ -472,7 +473,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Personal"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <TextView
@@ -480,7 +481,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="0.0"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <LinearLayout
@@ -492,7 +493,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="2"
                                 android:text="Status"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:textStyle="bold"
                                 android:textSize="17dp"/>
                             <ImageView
@@ -507,7 +508,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="This Week"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="12sp"/>
 
                     </LinearLayout>
@@ -533,7 +534,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Health"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <TextView
@@ -541,7 +542,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="0.0"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <LinearLayout
@@ -553,7 +554,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="2"
                                 android:text="Status"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:textStyle="bold"
                                 android:textSize="17dp"/>
                             <ImageView
@@ -568,7 +569,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="This Week"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="12sp"/>
 
                     </LinearLayout>
@@ -594,7 +595,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Other"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <TextView
@@ -602,7 +603,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="0.0"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="17dp"/>
                         <LinearLayout
@@ -614,7 +615,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="2"
                                 android:text="Status"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:textStyle="bold"
                                 android:textSize="17dp"/>
                             <ImageView
@@ -629,7 +630,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="This Week"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="12sp"/>
 
                     </LinearLayout>
@@ -642,11 +643,7 @@
                         android:layout_toEndOf="@+id/linearLayoutOther"/>
                 </RelativeLayout>
 
-                <com.anychart.AnyChartView
-                    android:id="@+id/anyChartView"
-                    android:layout_width="match_parent"
-                    android:layout_height="600dp"/>
-
+                
                 <RelativeLayout
                     android:id="@+id/linearLayoutAnalysis"
                     android:layout_marginTop="15dp"
@@ -666,7 +663,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Summary Spending Status"
-                            android:textColor="#000"
+                            android:textColor="@color/white"
                             android:textStyle="bold"
                             android:textSize="18sp"
                             />
@@ -676,7 +673,7 @@
                             android:text="Total Spent: Ksh 0"
                             android:textSize="15sp"
                             android:textStyle="bold"
-                            android:textColor="#000"
+                            android:textColor="@color/white"
                             android:id="@+id/monthSpentAmount"
                             />
 
@@ -691,7 +688,7 @@
                                 android:layout_weight="2"
                                 android:text="status"
                                 android:textSize="12sp"
-                                android:textColor="#000"
+                                android:textColor="@color/white"
                                 android:id="@+id/monthRatioSpending"
                                 />
                             <ImageView
@@ -709,7 +706,7 @@
                             android:layout_height="wrap_content"
                             android:text="Today"
                             android:textSize="12sp"
-                            android:textColor="#000"
+                            android:textColor="@color/white"
 
                             />
                     </LinearLayout>
