@@ -2,18 +2,9 @@ package com.example.andeca1;
 
 public class Data {
     String item,date,id,description;
-    int amount,month;
+    int amount,month, week;
     public Data(){
 
-    }
-
-    public Data(String item, String date, String id, String description, int amount, int month) {
-        this.item = item;
-        this.date = date;
-        this.id = id;
-        this.description = description;
-        this.amount = amount;
-        this.month = month;
     }
 
     public String getItem() {
@@ -52,8 +43,8 @@ public class Data {
         return amount;
     }
 
-    public void setAmounnt(int amounnt) {
-        this.amount = amounnt;
+    public void setAmount(int amount) {
+        this.amount = amount;
     }
 
     public int getMonth() {
@@ -62,5 +53,23 @@ public class Data {
 
     public void setMonth(int month) {
         this.month = month;
+    }
+
+    public int getWeek() {
+        return week;
+    }
+
+    public void setWeek(int week) {
+        this.week = week;
+    }
+
+    public Data(String item, String date, String id, String description, int amount, int month, int week) {
+        this.item = item;
+        this.date = date;
+        this.id = id;
+        this.description = description;
+        this.amount = amount;
+        this.month = month;
+        this.week = week;
     }
 }
