@@ -73,7 +73,6 @@ public class WeeklyAnalyticActivity extends AppCompatActivity {
         linearLayoutFood = findViewById(R.id.linearLayoutFood);
         linearLayoutHouse = findViewById(R.id.linearLayoutHouse);
 
-        anyChartView = findViewById(R.id.anyChartView);
 
         linearLayoutEntertainment = findViewById(R.id.linearLayoutEntertainment);
         dataOtherAmount = findViewById(R.id.dataOtherAmount);
