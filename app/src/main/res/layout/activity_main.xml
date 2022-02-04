@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F8F8"
+    android:background="#26004C"
 
     tools:context=".MainActivity">
 
@@ -54,8 +54,11 @@
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 android:layout_margin="8dp"
-                android:background="#000"
+                android:background="#621BA8"
+                android:onClick="onClickBudget">
                 >
+
+
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -66,10 +69,12 @@
                     android:onClick="onClickBudget">
 
                     <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/budget" />
                         android:id="@+id/budgetBtnImageView"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/splash" />
+                        />
+
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -103,10 +108,14 @@
                     android:onClick="onClickDaily">
 
                     <ImageView
+
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/day" />
+
                         android:id="@+id/dailyBtnImageView"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/splash" />
+                        />
+
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -139,10 +148,14 @@
                     android:onClick="onClickWeekly">
 
                     <ImageView
+
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/week" />
+
                         android:id="@+id/weekBtnImageView"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/splash" />
+                       />
+
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -175,10 +188,12 @@
                     android:onClick="onClickMonthly">
 
                     <ImageView
+
                         android:id="@+id/monthBtnImageView"
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/splash" />
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/month" />
+
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -211,11 +226,13 @@
                     >
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/splash"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/stats
+              
                         android:id="@+id/statisticCardView"
                         />
+
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -247,9 +264,9 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:src="@drawable/splash" />
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/history" />
 
                     <TextView
                         android:layout_width="wrap_content"
