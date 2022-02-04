@@ -1,6 +1,7 @@
 package com.example.andeca1;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
@@ -12,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ImageView weekBtnImageView,budgetBtnImageView,dailyBtnImageView, monthBtnImageView,
             todayAnalyticImageView,weekAnalyticImageView,monthAnalyticImageView,statisticCardView;
+    private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
         weekAnalyticImageView = findViewById(R.id.weekAnalyticImageView);
         monthAnalyticImageView = findViewById(R.id.monthAnalyticImageView);
         statisticCardView = requireViewById(R.id.statisticCardView);
+
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Spenditure");
 
     }
 

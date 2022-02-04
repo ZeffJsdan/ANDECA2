@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
         <activity
+            android:name=".MonthlyAnalyticActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WeeklyAnalyticActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DailyAnalyticActivity"
+            android:exported="false" />
+        <activity
             android:name=".MultiAnalyticsActivity"
             android:exported="false" />
         <activity

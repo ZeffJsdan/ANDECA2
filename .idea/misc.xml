@@ -6,34 +6,28 @@
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2703125" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/drawable/splash_foreground.xml" value="0.20833333333333334" />
+        <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/activity_budget.xml" value="0.16927083333333334" />
+        <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/activity_daily_analytic.xml" value="0.264" />
+        <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/activity_daily_spending.xml" value="0.25416666666666665" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/activity_login.xml" value="0.12291666666666666" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/activity_main_drawer.xml" value="0.24456521739130435" />
+        <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/activity_monthly_analytic.xml" value="0.23854166666666668" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/activity_multi_analytics.xml" value="0.16979166666666667" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/activity_registration.xml" value="0.18802083333333333" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/activity_weekly.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/activity_weekly_analytic.xml" value="0.23854166666666668" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/app_bar_main_activity_drawer.xml" value="0.24456521739130435" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/content_main_activity_drawer.xml" value="0.24456521739130435" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/fragment_gallery.xml" value="0.24456521739130435" />
+        <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/input_layout.xml" value="0.2" />
+        <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/retrieve_layout.xml" value="0.264" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/splash.xml" value="0.2" />
+        <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/layout/update_layout.xml" value="0.25416666666666665" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/mipmap-anydpi-v26/splash.xml" value="0.20833333333333334" />
         <entry key="..\:/AndriodStudio/ANDECA1/app/src/main/res/mipmap-anydpi-v26/splash_round.xml" value="0.20833333333333334" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/drawable/bg_gradient.xml" value="0.1" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/drawable/gradient_background.xml" value="0.1" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/drawable/splash_background.xml" value="0.1" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/layout/activity_budget.xml" value="0.20520833333333333" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/layout/activity_daily_spending.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/layout/activity_login.xml" value="0.2726449275362319" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/layout/activity_registration.xml" value="0.20520833333333333" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/layout/input_layout.xml" value="0.20520833333333333" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/layout/retrieve_layout.xml" value="0.20520833333333333" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/layout/splash.xml" value="0.25" />
-        <entry key="..\:/Users/ljaju/AndroidStudioProjects/ANDECA2/app/src/main/res/layout/update_layout.xml" value="0.20520833333333333" />
       </map>
     </option>
   </component>
