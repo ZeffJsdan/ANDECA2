@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/darkGray"
+    android:background="#26004C"
     tools:context=".MultiAnalyticsActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -28,7 +28,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginBottom="15dp"
         app:cardElevation="8dp"
-        android:background="@color/white"
+        app:cardBackgroundColor="#473572"
         android:onClick="onClickTodayCardView"
         >
 
@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:text="Today's Analytics"
                 android:textAlignment="center"
-                android:textColor="#000"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -64,7 +64,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginBottom="15dp"
         app:cardElevation="8dp"
-        android:background="@color/white"
+        app:cardBackgroundColor="#473572"
         android:onClick="onClickWeeklyCardView"
 
         >
@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:text="Weekly Analytics"
                 android:textAlignment="center"
-                android:textColor="#000"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -102,7 +102,7 @@
         app:cardElevation="8dp"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="15dp"
-        android:background="@color/white"
+        app:cardBackgroundColor="#473572"
         android:onClick="onClickMonthlyCardView"
 
         >
@@ -125,7 +125,7 @@
                 android:layout_height="wrap_content"
                 android:text="Monthly Analytics"
                 android:textAlignment="center"
-                android:textColor="#000"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
